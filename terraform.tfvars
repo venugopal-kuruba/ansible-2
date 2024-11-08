@@ -1,7 +1,7 @@
 aws_region           = "us-east-1"
 vpc_cidr             = "192.168.0.0/16"
 vpc_name             = "Ansible-testing"
-key_name             = "ganesh"
+key_name             = ""
 public_subnet_cidrs  = ["192.168.1.0/24", "192.168.2.0/24", "192.168.3.0/24"]    #List
 private_subnet_cidrs = ["192.168.10.0/24", "192.168.20.0/24", "192.168.30.0/24"] #List
 azs                  = ["us-east-1a", "us-east-1b", "us-east-1c"]                #List
@@ -17,8 +17,8 @@ amis = {
 }
 projid    = "PHOENIX-123"
 imagename = "ami-0149b2da6ceec4bb0"
-vpc_peering_id = "vpc-007f51fd1c800a117"
-vpc_peering_subnet_id = "subnet-049bac08488edd55f"
+vpc_peering_id = "vpc-0920bc0063ffaebbc"
+vpc_peering_subnet_id = "subnet-047afad644c92f4c4"
 
 
 
