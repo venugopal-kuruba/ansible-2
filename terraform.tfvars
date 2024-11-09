@@ -18,7 +18,7 @@ amis = {
 projid    = "PHOENIX-123"
 imagename = "ami-0149b2da6ceec4bb0"
 vpc_peering_id = "vpc-0920bc0063ffaebbc"
-vpc_peering_subnet_id = "subnet-047afad644c92f4c4"
+vpc_peering_subnet_id = "subnet-0d3e97faf5de494bf"
 
 
 
