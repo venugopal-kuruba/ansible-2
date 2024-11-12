@@ -43,7 +43,7 @@
   become_user: root
   serial: 1
   vars:
-    terraform_version: 1.9.5
+    terraform_version: 1.9.8
   tasks:
   - name: Check Terraform Exists
     shell: terraform version
