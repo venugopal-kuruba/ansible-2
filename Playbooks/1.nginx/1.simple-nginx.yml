@@ -43,7 +43,7 @@
     with_items:
       - unzip
       - net-tools
-      # - jq
+      - jq
       # - stress
       # - tree
     when: ansible_distribution == 'Ubuntu' and ansible_distribution_version == '20.04'
