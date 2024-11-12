@@ -7,7 +7,7 @@
   become_user: root
   serial: 1
   vars:
-    AWS_ACCOUNT: "721834156908"
+    AWS_ACCOUNT: "354918381978"
     OS_DIST: "{{ ansible_facts['distribution'] }}"
     OS_DIST_VERSION: "{{ ansible_facts['distribution_version'] }}"
   tasks:
