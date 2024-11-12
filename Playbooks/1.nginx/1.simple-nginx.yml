@@ -43,9 +43,9 @@
     with_items:
       - unzip
       - net-tools
-      - jq
-      - stress
-      - tree
+      # - jq
+      # - stress
+      # - tree
     when: ansible_distribution == 'Ubuntu' and ansible_distribution_version == '20.04'
   # - name: Install Base Tools 2
   #   apt: name={{ item }} state=present
