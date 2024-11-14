@@ -1,4 +1,5 @@
 https://www.redhat.com/sysadmin/faster-ansible-playbook-execution
+
 forks: Ansible uses batches for task execution, which are controlled by a parameter 
 called forks. The default value for forks is 5, which means Ansible executes a task 
 on the first five hosts, waits for the task to complete, and then takes the next 
